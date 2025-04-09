@@ -1,0 +1,4 @@
+<?php
+$MESS["BRIX_LINKEDTASKFIELDS_LINKED_LIST_COMPONENT_NAME"] = "Связанные поля в задачах";
+$MESS["BRIX_LINKEDTASKFIELDS_LINKED_LIST_COMPONENT_DESCR"] = "Компонент для просмотра настроенных связей полей в задачах";
+$MESS["BRIX_LINKEDTASKFIELDS_LINKED_LIST_COMPONENT_PATH_NAME"] = "Brix";

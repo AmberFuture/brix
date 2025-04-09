@@ -1,0 +1,58 @@
+.access {
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    list-style: "\200B";
+}
+
+.access * {
+    box-sizing: border-box;
+}
+
+.access__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.access__title {
+    grid-column: 1 / -1;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+:where(.access__item:first-child) .access__title {
+    margin-top: 0;
+}
+
+.access__text {
+    margin: 0;
+    text-align: right;
+}
+
+.access__text:nth-child(even) {
+    justify-self: left;
+    text-align: left;
+}
+
+.access__block {
+    display: grid;
+    grid-template-columns: max-content 40px;
+    gap: 10px;
+    align-items: center;
+}
+
+:where(.access) .ui-ctl-element {
+    cursor: pointer;
+}
+
+.access-add {
+    display: block;
+    margin: 0 auto;
+}

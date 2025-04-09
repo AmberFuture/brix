@@ -1,0 +1,33 @@
+.brix-history-link {
+    position: relative;
+    padding-top: 2px;
+    padding-left: 35px;
+    line-height: 25px;
+}
+
+.brix-history-link::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: var(--ui-icon-service-bg-color);
+    background-image: var(--ui-icon-service-bg-image);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.pagetitle-inner-container {
+    display: grid;
+    grid-template-columns: minmax(200px, max-content) minmax(780px, max-content);
+    gap: 30px 60px;
+}
+
+#pagetitle-menu {
+    display: none;
+}

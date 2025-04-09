@@ -1,0 +1,7 @@
+<?php
+$MESS["BRIX_ACCESSES_IBLOCK_CONTROLLER_UPDATE_S"] = "Отключено расширенное управление правами";
+$MESS["BRIX_ACCESSES_IBLOCK_CONTROLLER_UPDATE_E"] = "Включено расширенное управление правами";
+$MESS["BRIX_ACCESSES_IBLOCK_CONTROLLER_ADD_RIGHTS"] = "Добавлено: #NAME# - #NEW#";
+$MESS["BRIX_ACCESSES_IBLOCK_CONTROLLER_UPDATE_RIGHTS"] = 'Изменено: #NAME# - с "#OLD#" на "#NEW#"';
+$MESS["BRIX_ACCESSES_IBLOCK_CONTROLLER_DELETE_RIGHTS"] = "Удалено: #NAME# - #OLD#";
+$MESS["BRIX_ACCESSES_IBLOCK_CONTROLLER_DEFAULT_RIGHTS"] = "По умолчанию";
