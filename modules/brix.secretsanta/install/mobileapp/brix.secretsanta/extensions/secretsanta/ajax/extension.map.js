@@ -1,0 +1,1 @@
+{"version":3,"sources":["extension.js"],"names":["jn","define","require","exports","module","ActionAjax"],"mappings":"AAGAA,GAAGC,OAAO,mBAAoB,CAACC,EAASC,EAASC,KACrCC,EAAeH,EAAQ,yBAAyB,EAArC,WAEnBE,EAAOD,QAAU,CACbE,WAAAA,CACJ,CACJ,CAAC"}
